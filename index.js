@@ -27,7 +27,7 @@ elementarySchoolFirst.set("graduate", 2016);
 arrEducationFirst.push(elementarySchoolFirst);
 
 const juniorSchoolFirst = new Map();
-juniorSchoolFirst.set("name", "SD 02");
+juniorSchoolFirst.set("name", "SMP 02");
 juniorSchoolFirst.set("city", "Jakarta");
 juniorSchoolFirst.set("graduate", 2019);
 arrEducationFirst.push(juniorSchoolFirst);
@@ -63,7 +63,7 @@ secondUser.email = "wendy@dingdong.com";
 const favoriteColorSecond = new Set();
 favoriteColorSecond.add("Blue");
 favoriteColorSecond.add("Black");
-favoriteColorSecond.add("Gray");
+favoriteColorSecond.add("Grey");
 
 firstUser.favoriteColor = Array.from(favoriteColorSecond);
 
@@ -87,6 +87,11 @@ const highSchoolSecond = new Map();
 highSchoolSecond.set("name", "SMA 03");
 highSchoolSecond.set("city", "Tanggerang");
 arrEducationSecond.push(highSchoolSecond);
+
+const universitySecond = new Map();
+universitySecond.set("name", "Universitas Maju");
+universitySecond.set("city", "Tanggerang");
+arrEducationSecond.push(universitySecond);
 
 secondUser.education = arrEducationSecond;
 
