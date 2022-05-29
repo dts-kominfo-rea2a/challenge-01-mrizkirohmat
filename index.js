@@ -75,7 +75,7 @@ const elementarySchoolSecond = new Map();
 elementarySchoolSecond.set("name", "SD 02");
 elementarySchoolSecond.set("city", "Jakarta");
 elementarySchoolSecond.set("graduate", 2010);
-arrEducationSecond.push(elementarySchoolSecondt);
+arrEducationSecond.push(elementarySchoolSecond);
 
 const juniorSchoolSecond = new Map();
 juniorSchoolSecond.set("name", "SMP 03");
