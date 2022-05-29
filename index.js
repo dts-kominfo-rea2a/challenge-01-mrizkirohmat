@@ -65,9 +65,9 @@ favoriteColorSecond.add("Blue");
 favoriteColorSecond.add("Black");
 favoriteColorSecond.add("Grey");
 
-firstUser.favoriteColor = Array.from(favoriteColorSecond);
+secondUser.favoriteColor = Array.from(favoriteColorSecond);
 
-firstUser.isHavePet = "No";
+secondUser.isHavePet = "No";
 
 const arrEducationSecond = [];
 
