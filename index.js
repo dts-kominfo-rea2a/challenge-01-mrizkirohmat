@@ -106,7 +106,7 @@ favoriteRestaurantSecond.add("Geprek");
 favoriteRestaurantSecond.add("Pancake");
 favoriteRestaurantSecond.add("Eggy");
 
-secondUser.favoriteRestaurant = Array.from(favoriteRestaurantFirst);
+secondUser.favoriteRestaurant = Array.from(favoriteRestaurantSecond);
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
